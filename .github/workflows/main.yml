@@ -26,4 +26,4 @@ jobs:
           remote-user: "4431943_admin" # in docs with square brackets
           remote-password: ${{ secrets.FTP_PASSWORD }}
           remote-path: "/"
-          sync: "delta"
+          sync: "full"
