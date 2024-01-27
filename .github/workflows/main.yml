@@ -26,5 +26,5 @@ jobs:
           remote-user: "4431943_admin" # in docs with square brackets
           ssh-private-key: ${{ secrets.FTP_PASSWORD }}
           remote-path: "/home/www/"
-          local-path: "/"
+          local-path: "./"
           sync: "delta"
