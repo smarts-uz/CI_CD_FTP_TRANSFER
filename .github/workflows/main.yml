@@ -25,5 +25,5 @@ jobs:
           remote-host: "f34-preview.awardspace.net"
           remote-user: "4431943_admin" # in docs with square brackets
           remote-password: ${{ secrets.FTP_PASSWORD }}
-          remote-path: "/home/www/"
+          remote-path: "/"
           sync: "delta"
